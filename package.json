@@ -1,0 +1,22 @@
+{
+  "name": "web-minifier",
+  "version": "1.0.0",
+  "description": "web minifier it to minify all web files.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jangachary Sriramadas",
+  "license": "ISC",
+  "dependencies": {
+    "@node-minify/clean-css": "^8.0.6",
+    "@node-minify/core": "^8.0.6",
+    "@node-minify/html-minifier": "^8.0.6",
+    "@node-minify/sqwish": "^8.0.6",
+    "@node-minify/uglify-js": "^8.0.6",
+    "cheerio": "^1.0.0-rc.12",
+    "cssnano": "^7.0.1",
+    "postcss": "^8.4.38",
+    "sqwish": "^0.2.2"
+  }
+}
